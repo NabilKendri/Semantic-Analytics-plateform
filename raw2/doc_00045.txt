@@ -1,0 +1,1 @@
+The app keeps crashing every time I try to open my dashboard after the last update.

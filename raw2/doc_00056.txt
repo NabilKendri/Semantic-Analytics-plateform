@@ -1,0 +1,1 @@
+Order #27974: the API integration stopped returning data since yesterday morning.
