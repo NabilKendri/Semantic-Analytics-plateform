@@ -1,0 +1,12 @@
+{
+  "total_documents": 200,
+  "passed": 187,
+  "flagged": 13,
+  "pass_rate": 0.935,
+  "issue_breakdown": {
+    "low_confidence": 13,
+    "category_unresolved": 13,
+    "no_key_topics_extracted": 13,
+    "summary_too_short_or_missing": 6
+  }
+}

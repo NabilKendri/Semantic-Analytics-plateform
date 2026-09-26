@@ -1,0 +1,7 @@
+langchain>=1.4
+langgraph>=1.2
+langchain-anthropic>=0.3
+fastapi>=0.141
+uvicorn>=0.30
+pydantic>=2.13
+pytest>=8.0

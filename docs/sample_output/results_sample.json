@@ -1,0 +1,101 @@
+[
+  {
+    "document_id": "doc_00001",
+    "status": "stored",
+    "extraction": {
+      "document_id": "doc_00001",
+      "category": "shipping",
+      "summary": "My order #61750 was supposed to arrive last week and still hasn't shown up.",
+      "entities": [
+        "#61750"
+      ],
+      "sentiment": "neutral",
+      "urgency": "normal",
+      "key_topics": [
+        "order",
+        "arrive"
+      ],
+      "confidence": 0.8
+    },
+    "qa_issues": []
+  },
+  {
+    "document_id": "doc_00002",
+    "status": "stored",
+    "extraction": {
+      "document_id": "doc_00002",
+      "category": "billing",
+      "summary": "This is time-sensitive, My invoice for o",
+      "entities": [],
+      "sentiment": "neutral",
+      "urgency": "high",
+      "key_topics": [
+        "invoice"
+      ],
+      "confidence": 0.65
+    },
+    "qa_issues": []
+  },
+  {
+    "document_id": "doc_00003",
+    "status": "flagged",
+    "extraction": {
+      "document_id": "doc_00003",
+      "category": "other",
+      "summary": "Support was slow to r",
+      "entities": [],
+      "sentiment": "negative",
+      "urgency": "normal",
+      "key_topics": [],
+      "confidence": 0.25
+    },
+    "qa_issues": [
+      "low_confidence (0.25)",
+      "category_unresolved",
+      "no_key_topics_extracted"
+    ]
+  },
+  {
+    "document_id": "doc_00004",
+    "status": "stored",
+    "extraction": {
+      "document_id": "doc_00004",
+      "category": "billing",
+      "summary": "I was charged twice for my subscription this month, order #92657.",
+      "entities": [
+        "#92657",
+        "Can"
+      ],
+      "sentiment": "neutral",
+      "urgency": "normal",
+      "key_topics": [
+        "charge",
+        "refund",
+        "subscription",
+        "order"
+      ],
+      "confidence": 0.85
+    },
+    "qa_issues": []
+  },
+  {
+    "document_id": "doc_00005",
+    "status": "stored",
+    "extraction": {
+      "document_id": "doc_00005",
+      "category": "feedback",
+      "summary": "This is time-sensitive, Just wanted to say the new dashboard redesign is fantastic, great work team!",
+      "entities": [],
+      "sentiment": "positive",
+      "urgency": "high",
+      "key_topics": [
+        "great",
+        "fantastic",
+        "team",
+        "redesign"
+      ],
+      "confidence": 0.9
+    },
+    "qa_issues": []
+  }
+]
